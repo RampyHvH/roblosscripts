@@ -1,3 +1,17 @@
+-- updated 5/12/21
+-- should choke less
+
+-- updated 5/16/21
+-- should ignore invisible notes
+-- added hit chances and a toggle
+-- hit chances are a bit rough but should work good enough
+
+-- only tested on Synapse X
+-- moved ui to github & removed the kick
+
+-- for "free exploit" developers
+-- you need the following functions
+-- loadstring, HttpGet, getgc, getloadedmodules, getconnections, and set_thread_identity or whatever you call it
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua"))()
 
@@ -175,8 +189,8 @@ local window = library:CreateWindow('Funky Friday') do
 
 	local folder = window:AddFolder('Credits') do
 		folder:AddLabel({ text = 'Credits' })
-		folder:AddLabel({ text = 'RampyHvH - UI library/Script' })
-		folder:AddLabel({ text = 'Zerotwo - idea' })
+		folder:AddLabel({ text = 'Jan - UI library' })
+		folder:AddLabel({ text = 'roomper - reScript' })
 	end
 end
 
