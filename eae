@@ -1,17 +1,4 @@
--- updated 5/12/21
--- should choke less
 
--- updated 5/16/21
--- should ignore invisible notes
--- added hit chances and a toggle
--- hit chances are a bit rough but should work good enough
-
--- only tested on Synapse X
--- moved ui to github & removed the kick
-
--- for "free exploit" developers
--- you need the following functions
--- loadstring, HttpGet, getgc, getloadedmodules, getconnections, and set_thread_identity or whatever you call it
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
@@ -178,7 +165,7 @@ runService:BindToRenderStep(shared._id, 1, function()
 end)
 
 local window = library:CreateWindow('Funky Friday') do
-	local folder = window:AddFolder('Main') do
+	local folder = window:AddFolder('BOT') do
 		folder:AddToggle({ text = 'Autoplayer', flag = 'autoPlayer' })
 
 		folder:AddSlider({ text = 'Sick %', flag = 'sickChance', min = 0, max = 100, value = 100 })
@@ -187,11 +174,7 @@ local window = library:CreateWindow('Funky Friday') do
 		folder:AddSlider({ text = 'Bad %', flag = 'badChance', min = 0, max = 100, value = 0 })
 	end
 
-	local folder = window:AddFolder('Credits') do
-		folder:AddLabel({ text = 'Credits' })
-		folder:AddLabel({ text = 'Jan - UI library' })
-		folder:AddLabel({ text = 'roomper - reScript' })
-	end
+	
 end
 
 
