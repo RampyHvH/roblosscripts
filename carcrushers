@@ -1451,7 +1451,7 @@ local window = library:CreateWindow("Car Crushers 2", Vector2.new(450,330), Enum
             changeSector:AddLabel("• Tank Aura")         
             changeSector:AddLabel("• Tank Kill All")
         
-    ') else print("DnyxZRwQh3") end end)
+    ') else print("Sey5YmXNmh") end end)
                 
         local changeSector = miscTab:CreateSector("Changelogs")
             changeSector:AddLabel("• Crash Aura")
