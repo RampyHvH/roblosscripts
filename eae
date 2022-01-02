@@ -349,13 +349,13 @@ do
 
         local folder = window:AddFolder('Credits') do
             folder:AddLabel({ text = 'Wally - UI library' })
-            folder:AddLabel({ text = 'Rampy - Script' })
-            folder:AddLabel({ text = 'Rampy - Contributor'})
+            folder:AddLabel({ text = 'Wally - Original script' })
+            folder:AddLabel({ text = 'Rampy - ReScript' })
+            
         end
 
-        window:AddLabel({ text = 'Version 1.7e' })
-        window:AddLabel({ text = 'Updated 30/12/21' })
-        window:AddLabel({ text = 'i hate ice bear sometimes' })
+        w
+        
       
         window:AddDivider()
         window:AddButton({ text = 'Unload script', callback = function()
